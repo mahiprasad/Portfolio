@@ -1,0 +1,218 @@
+body {
+  background-color: #b4ddcc;
+  color:rgb(48, 48, 48) ;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size:1rem;
+  background-image: url(/bg/teahub.io-wallpaper-web-1253801.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin:0%;
+}
+
+p{
+  line-height: 2;
+}
+
+hr {
+  background-color: none;
+  border-style: none;
+  border-top-style:dotted ;
+  width: 5%;
+  color: rgba(125, 141, 113, 0.46);
+  border-width: 5px;
+}
+
+a:link{
+  color: rgb(48, 48, 48);
+text-decoration: none;
+cursor: pointer;;
+}
+a:visited{
+color: #588874;
+text-decoration: underline;
+cursor: auto;
+}
+
+
+/*-------
+Navbar
+-------*/
+
+
+
+/* Intro Card Styling */
+#header{
+  position: relative;
+  margin:11% 15%;
+  padding: 2% 4%;
+  background-color:rgb(119, 159, 140);
+  border-radius: 4px;
+  display:flex;
+  justify-content:center;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.me1{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  width: 35%;
+  border: 1px solid rgb(148, 220, 205);
+  border-radius: 50%;
+  margin: 3% 2% 3% 0%;
+}
+.me1:hover {
+  opacity: 50%;
+}
+
+
+.img {
+  border: 1px solid rgb(240, 218, 198);
+  border-radius: 50%;
+  padding: 0.3em;
+  width: 85%;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+/* .img:hover .overlay{
+  box-shadow: 0 0 2px 1px rgb(148, 220, 205);
+} */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(148, 220, 205)
+}
+.overlay-text {
+  color: rgb(48, 48, 48);
+  font-size: 1rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+h1{
+  color: rgb(48, 48, 48);
+  padding: 0;
+  margin-bottom:0;
+  font-weight:bolder;
+}
+h3{
+  color: rgb(88, 136, 116);
+  font-size: 1.75rem;
+  margin-bottom: 0%;
+}
+
+#sub-head{
+  padding: 0;
+  margin-top: 1em;
+  font-weight: lighter;
+}
+#intro{
+  font-family: 'Sacramento', cursive;
+  font-size:1.5rem;
+  margin-top: 0.5em;
+}
+
+
+
+
+/* body conatent  styling */
+.main{
+  display: flex;
+}
+.container{
+  position: relative;
+  margin: 1%;
+  text-align: center;
+border: 1px solid rgb(88, 136, 116);
+border-radius: 4px;
+overflow: auto;
+}
+.hobbies{
+  width:20%;
+  padding:5% 3%;
+}
+.work{
+  width:20%;
+  padding:5% 3%;
+}
+.history{
+  width:40%;
+  padding:5% 3%;
+}
+.skills{
+  width:20%;
+  padding:5% 3%;
+}
+.languages{
+  width:20%;
+  padding:5% 3%;
+}
+
+
+/* Academic history */
+.academic{
+  display: flex;
+}
+.acad{
+  margin: 1%;
+}
+
+/* skills */
+.skill{
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+
+/* Footer */
+.footer{
+  background-color: rgb(88, 136, 116);
+  width: 100%;
+  margin-top:6%;
+  padding: 1% 0%;
+  text-align:center;
+}
+#touch{
+  color: rgb(48, 48, 48);
+}
+#touch a:visited{
+  color: rgb(31, 29, 29);
+}
+
+/* icons */
+.icon{
+  width: 35%;
+  margin: 1% auto auto;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.icon-img{
+  width:  4rem;
+  height: auto;
+}
+.github{
+  padding:0% 5%;
+}
+
+
+
