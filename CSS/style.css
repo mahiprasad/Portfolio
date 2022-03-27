@@ -193,6 +193,12 @@ overflow: auto;
 }
 #touch{
   color: rgb(48, 48, 48);
+  transition-property: font-size;
+  transition-duration: 0.5s;
+}
+#touch:hover{
+  text-decoration:underline;
+  font-size: 1.5rem;
 }
 #touch a:visited{
   color: rgb(31, 29, 29);
