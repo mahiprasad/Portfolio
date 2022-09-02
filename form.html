@@ -34,9 +34,19 @@
     <div class="ver"></div>
 
     <div class="right">
+      
       <div class="giphy"></div>
       <iframe src="https://giphy.com/embed/Kd5t8Q0aUDui9yaf9n"  frameBorder="0" class="giphy" allowFullScreen></iframe>
-      <form action="mailto:mahiprasad264@gmail.com" method="post" target="_blank" enctyype>
+      
+      <form 
+        action = "mailto:mahiprasad264@gmail.com" 
+        method = "post" 
+        target = "_blank" 
+        enctype = "text/plain" 
+        data-component = "Form" 
+        &subject = demo subject
+        &body = Mention your reason for contacting here>
+        
         <label for="">Your Name</label>
         <input type="text" name="name" id="" />
         <br /><br />
@@ -45,12 +55,16 @@
         <br /><br />
         <label for="">Your Message</label>
         <textarea name="message" id=""></textarea>
+        
         <br />
+        
         <div class="button">
           <span><input type="reset" class="btn" style="vertical-align:middle" /></span>
           <span><input type="submit" class="btn" style="vertical-align:middle" /> </span>
         </div>
+        
       </form>
+      
       <span><a href="./index.html">⬅ Go back</a></span>
     </div>
   </div>
